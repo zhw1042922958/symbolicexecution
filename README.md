@@ -33,3 +33,15 @@ git config --global user.email "你的github邮箱地址"
 git@github.com:zhw1042922958/symbolicexecution.git
 
 更新本地仓库:git pull origin master
+
+windows下进行github：
+1.安装github https://git-scm.com/downloads
+2.在文件夹下git bash
+3.添加ssh密钥 ssh-keygen -t rsa -C 电子邮箱
+4.eval $(ssh-agent -s)
+5.ssh-add  /c/Users/zhw/.ssh/id_rsa
+6.在官网上添加ssh公钥
+7.git config --global user.name zhw1042922958
+git config --global user.email 971649626@qq.com
+
+8.建立远程仓库链接git@github.com:zhw1042922958/symbolicexecution.git
