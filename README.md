@@ -6,7 +6,10 @@
  git push -u origin master
  
  第二次：
- 
+ git add .
+ git commit -m "添加说明"
+ git push  origin master
+
  下载该仓库：
 
 
