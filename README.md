@@ -8,3 +8,6 @@
  第二次：
  
  下载该仓库：
+
+
+更新本地仓库:git pull origin master
